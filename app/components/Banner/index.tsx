@@ -22,7 +22,7 @@ const Banner = () => {
 
                         <div className='flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12'>
                             <button className='w-full sm:w-auto text-lg font-bold bg-blue text-white py-4 px-10 rounded-2xl hover:bg-hoblue shadow-[0_20px_40px_rgba(0,102,255,0.2)] hover:shadow-none transform hover:-translate-y-1 transition-all duration-300'>
-                                Let's Talk
+                                Let&apos;s Talk
                             </button>
                             <button className='w-full sm:w-auto text-lg font-bold bg-white text-darkpurple border-2 border-darkpurple/5 py-4 px-10 rounded-2xl hover:bg-darkpurple hover:text-white transition-all duration-300'>
                                 Our Work
