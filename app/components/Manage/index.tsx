@@ -6,79 +6,77 @@ import Image from 'next/image';
 
 const names = [
     {
-        heading: "Startup",
-        price: 41,
-        user: 'per user, per month',
-        button: "Start My 15-day Trial",
-        profiles: '5 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "400+ Templated",
-        view: "Calendar View",
-        support: '24/7 Support',
-        category: 'yearly'
+        heading: "Basic Research",
+        price: 999,
+        user: 'per month',
+        button: "Subscribe Now",
+        profiles: 'Nifty 50 Analysis',
+        posts: 'Daily Market Updates',
+        templates: "Weekly Newsletter",
+        view: "Standard Support",
+        support: 'Email Support',
+        category: 'monthly'
     },
     {
-        heading: "Business",
-        price: 29,
-        user: 'per user, per month',
-        button: "Start My 15-day Trial",
-        profiles: '10 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "600+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
-        category: 'yearly'
+        heading: "Pro Investor",
+        price: 2499,
+        user: 'per month',
+        button: "Subscribe Now",
+        profiles: 'Mid-cap & Small-cap',
+        posts: 'Direct Analyst Calls',
+        templates: "Portfolio Auditing",
+        view: "Priority Discord Access",
+        support: 'WhatsApp Support',
+        category: 'monthly'
     },
     {
-        heading: "Agency",
-        price: 139,
-        user: 'per user, per month',
-        button: "Start My 15-day Trial",
-        profiles: '100 Social Profiles',
-        posts: '100 Scheduled Posts Per Profile',
-        templates: "800+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
-        category: 'yearly'
-    },
-    {
-        heading: "Agency",
-        price: 139,
-        user: 'per user, per yearly',
-        button: "Start My 15-day Trial",
-        profiles: '100 Social Profiles',
-        posts: '100 Scheduled Posts Per Profile',
-        templates: "800+ Templated",
-        view: "Calendar View",
+        heading: "Platinum Wealth",
+        price: 9999,
+        user: 'per month',
+        button: "Contact for HNI",
+        profiles: 'Full Wealth Management',
+        posts: 'Customized Portfolios',
+        templates: "Quarterly Reviews",
+        view: "Exclusive Webinar Access",
         support: '24/7 VIP Support',
         category: 'monthly'
     },
     {
-        heading: "Startup",
-        price: 41,
-        user: 'per user, per yearly',
-        button: "Start My 15-day Trial",
-        profiles: '5 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "400+ Templated",
-        view: "Calendar View",
-        support: '24/7 Support',
-        category: 'monthly'
+        heading: "Basic Research",
+        price: 9999,
+        user: 'per year',
+        button: "Subscribe Now",
+        profiles: 'Nifty 50 Analysis',
+        posts: 'Daily Market Updates',
+        templates: "Weekly Newsletter",
+        view: "Standard Support",
+        support: 'Email Support',
+        category: 'yearly'
     },
     {
-        heading: "Business",
-        price: 29,
-        user: 'per user, per yearly',
-        button: "Start My 15-day Trial",
-        profiles: '10 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "600+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
-        category: 'monthly'
+        heading: "Pro Investor",
+        price: 24999,
+        user: 'per year',
+        button: "Subscribe Now",
+        profiles: 'Mid-cap & Small-cap',
+        posts: 'Direct Analyst Calls',
+        templates: "Portfolio Auditing",
+        view: "Priority Discord Access",
+        support: 'WhatsApp Support',
+        category: 'yearly'
     },
-
-
+    {
+        heading: "Platinum Wealth",
+        price: 99999,
+        user: 'per year',
+        button: "Contact for HNI",
+        profiles: 'Full Wealth Management',
+        posts: 'Customized Portfolios',
+        templates: "Quarterly Reviews",
+        view: "Exclusive Webinar Access",
+        support: '24/7 VIP Support',
+        category: 'yearly'
+    },
 ]
 
 const Manage = () => {
@@ -96,7 +94,7 @@ const Manage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-65xl font-black'>Manage All Your Social Media <br /> Profiles From One Place.</h3>
+                <h3 className='text-center text-4xl sm:text-65xl font-black'>Strategic Financial Research <br /> for Every Investor.</h3>
 
 
                 <div className='md:flex md:justify-around mt-20'>

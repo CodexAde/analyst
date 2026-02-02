@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                     {/* LOGO */}
                     <div className="flex-shrink-0">
                         <Link href="/" className="text-2xl sm:text-3xl font-bold text-black tracking-tight hover:opacity-80 transition-opacity">
-                            Desgy<span className="text-blue">.</span>
+                            Ramanti Capitals<span className="text-blue">.</span>
                         </Link>
                     </div>
 
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
                 <div className="flex flex-col h-full p-8">
                     <div className="flex items-center justify-between mb-16">
                         <Link href="/" className="text-3xl font-bold text-black" onClick={() => setIsOpen(false)}>
-                            Desgy<span className="text-blue">.</span>
+                            Ramanti Capitals<span className="text-blue">.</span>
                         </Link>
                         <button
                             onClick={() => setIsOpen(false)}

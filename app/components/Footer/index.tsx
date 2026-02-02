@@ -40,7 +40,7 @@ const footer = () => {
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4'>
-                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4 lg:mb-20'> Desgy Solutions</h3>
+                        <h3 className='text-white text-4xl font-semibold leading-9 mb-4 lg:mb-20'> Ramanti Capitals</h3>
                         <div className='flex gap-4'>
                             <div className='footer-icons'>
                                 <Link href="https://facebook.com"><Image src={'/images/footer/vec.svg'} alt="facebook" width={15} height={20} /></Link>
@@ -72,6 +72,24 @@ const footer = () => {
                 </div>
             </div>
 
+            {/* All Rights Reserved */}
+            <div className="mx-auto max-w-2xl lg:max-w-7xl">
+                <div className="pt-8 pb-8 px-4 sm:px-6 lg:px-4 border-t border-white/10">
+                    <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 items-center">
+                        <p className='text-center sm:text-left text-gray-400 text-sm'>
+                            © {new Date().getFullYear()} Ramanti Capitals. All Rights Reserved.
+                        </p>
+                        <div className="flex justify-center sm:justify-end space-x-8">
+                            <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">
+                                Privacy Policy
+                            </Link>
+                            <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors pl-8 border-l border-white/10">
+                                Terms & Conditions
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     )
