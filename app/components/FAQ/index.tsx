@@ -4,20 +4,20 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline';
 
 const faqData = [
     {
-        question: "How long does it take to build a website?",
-        answer: "Typically, a custom business website takes 4-8 weeks from planning to launch. More complex platforms or e-commerce sites can take 12 weeks or more depending on features and complexity."
+        question: "Is Ramanti Capitals SEBI registered?",
+        answer: "Yes, Ramanti Capitals is a SEBI Certified Research Analyst firm. We strictly adhere to the guidelines and regulations set by the Securities and Exchange Board of India to ensure the highest standards of financial integrity."
     },
     {
-        question: "Do you provide graphic design services?",
-        answer: "Yes, we are a full-service digital agency. We offer brand design, logo creation, UI/UX design, and social media graphics to ensure your brand looks consistent across all platforms."
+        question: "What kind of research reports do you provide?",
+        answer: "We offer comprehensive research spanning across Equity, F&O, and Commodities. Our reports include daily market outlooks, weekly technical analysis, and deep-dive fundamental research on mid-cap and small-cap stocks."
     },
     {
-        question: "Can you help with SEO and Digital Marketing?",
-        answer: "Absolutely. We build all our websites with SEO best practices in mind, and we offer dedicated growth strategies including content marketing, PPC, and search engine optimization."
+        question: "How do you ensure data privacy of investors?",
+        answer: "We take your privacy seriously. All your investment details and personal data are encrypted and never shared with third parties. Our platform is built with bank-grade security to protect your financial interests."
     },
     {
-        question: "What is your typical project process?",
-        answer: "Our process involves four main stages: Discovery & Planning, UI/UX Design, Development, and finally Testing & Launch. We keep you updated every step of the way."
+        question: "Can I get a customized portfolio review?",
+        answer: "Absolutely. Our Platinum Wealth members get access to direct analyst consultations where we review your existing portfolio and provide a detailed risk-reward audit along with rebalancing suggestions."
     }
 ];
 

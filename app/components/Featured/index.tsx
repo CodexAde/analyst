@@ -12,19 +12,19 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        heading: 'Brand design for a computer brand.',
+        heading: 'Multibagger results in Green Energy sector.',
         imgSrc: '/images/featured/feat1.jpg',
     },
     {
-        heading: 'Mobile app 3d wallpaper.',
+        heading: 'Strategic hedging during 2024 volatility.',
         imgSrc: '/images/featured/feat2.jpg',
     },
     {
-        heading: 'Brand design for a computer brand.',
+        heading: 'Consistent 25% CAGR portfolio growth.',
         imgSrc: '/images/featured/feat1.jpg',
     },
     {
-        heading: 'Mobile app 3d wallpaper.',
+        heading: 'High-conviction mid-cap research wins.',
         imgSrc: '/images/featured/feat2.jpg',
     }
 ]
@@ -88,9 +88,9 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center pt-48 pb-10 md:pt-96">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white my-2">Featured works.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-50 my-2">Featured works.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-25 my-2">Featured works.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-white my-2">Proven Performance.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-50 my-2">Research Accuracy.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-25 my-2">Client Success.</h3>
                     </div>
 
                     <Slider {...settings}>
