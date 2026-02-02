@@ -13,24 +13,18 @@ body {
   font-family: 'Urbanist', sans-serif;
 }
 
-html:not([data-scroll="0"]) .navbar {
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: white !important;
-  opacity: 1.9;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
-  transition: 0.4s linear;
   padding: 0px !important;
-  /* height: 20px; */
-  z-index: 3;
+  z-index: 50;
+  border-bottom: 0.5px solid rgba(196, 196, 196, 0.75);
 }
 
-html:not([data-scroll="0"]) .navbar>div>div {
-  height: 3rem;
-}
-
-html:not([data-scroll="0"]) .border-right {
+.navbar > div > div {
   height: 4rem;
 }
 
@@ -39,10 +33,7 @@ html {
   scroll-behavior: smooth !important;
 }
 
-.navbar {
-  border-bottom: 0.5px solid rgba(196, 196, 196, 0.75);
-  ;
-}
+/* removed dynamic navbar styles */
 
 .hover-underline {
   display: inline-flex;
