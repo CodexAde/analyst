@@ -24,10 +24,10 @@ export default function Home() {
       <Beliefs />
       <Wework />
       <Ourteam />
-      {/* <Featured /> */}
+      <Featured />
       <Manage />
       <FAQ />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Articles />
       <Joinus />
       <Insta /> 

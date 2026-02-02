@@ -202,7 +202,15 @@ html {
 
 @media only screen and (max-width: 1400px) {
   .bg-testimonial {
-    background-position: 80%, top right, top left;
+    background-position: 80%, 95% 10%, 5% 5%;
+    background-size: 80%, 150px, 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-testimonial {
+    background-position: 50%, 95% 5%, 5% 5%;
+    background-size: contain, 80px, 80px;
   }
 }
 
