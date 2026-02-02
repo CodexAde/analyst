@@ -9,14 +9,14 @@ const Digital = () => {
 
                    {/* COLUMN-1 */}
 
-                    <div className="pt-0 lg:pl-24">
-                        <h3 className="text-lg font-normal text-white mb-5 tracking-widest text-center lg:text-start uppercase">WHO WE ARE</h3>
-                        <h4 className="text-4xl sm:text-6xl font-bold text-white mb-8 leading-snug text-center lg:text-start">Premium Wealth Management <br /> & Investment Experts.</h4>
-                        <p className="text-white text-lg font-normal mb-8 leading-relaxed text-center lg:text-start opacity-80">
+                    <div className="pt-0 lg:pl-24 flex flex-col items-center lg:items-start text-center lg:text-start">
+                        <h3 className="text-lg font-normal text-white mb-5 tracking-widest uppercase">WHO WE ARE</h3>
+                        <h4 className="text-4xl sm:text-6xl font-bold text-white mb-8 leading-snug">Premium Wealth Management <br /> & Investment Experts.</h4>
+                        <p className="text-white text-lg font-normal mb-8 leading-relaxed opacity-80">
                             Our SEBI Certified analysts provide data-driven insights <br className="hidden lg:block" /> 
                             to maximize your capital and secure your financial future.
                         </p>
-                        <div className="text-center lg:text-start">
+                        <div className="">
                             <button className="text-xl font-semibold text-white bg-btnblue py-4 px-12 hover:bg-hoblue rounded-full">Explore Services</button>
                         </div>
                     </div>

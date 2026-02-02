@@ -17,51 +17,51 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        time: "5 min",
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Published on Startupon",
-        date: 'August 19, 2021',
+        time: "7 min",
+        heading: 'Nifty 50 Outlook',
+        heading2: 'February 2026 Trends',
+        name: "SEBI Research Desk",
+        date: 'Feb 02, 2026',
         imgSrc: '/images/articles/article.png',
     },
     {
-        time: "5 min",
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Published on Startupon",
-        date: 'August 19, 2021',
+        time: "10 min",
+        heading: 'Top 5 Mid-cap Picks',
+        heading2: 'For Long-term Growth',
+        name: "Portfolio Advisory",
+        date: 'Jan 28, 2026',
         imgSrc: '/images/articles/article2.png',
     },
     {
         time: "5 min",
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Published on Startupon",
-        date: 'August 19, 2021',
+        heading: 'Wealth Management',
+        heading2: 'Tax Saving Tips',
+        name: "Financial Planning",
+        date: 'Jan 25, 2026',
         imgSrc: '/images/articles/article3.png',
     },
     {
-        time: "5 min",
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Published on Startupon",
-        date: 'August 19, 2021',
+        time: "8 min",
+        heading: 'IPO Analysis',
+        heading2: 'Worth the Hype?',
+        name: "Market Strategy",
+        date: 'Jan 20, 2026',
         imgSrc: '/images/articles/article.png',
     },
     {
-        time: "5 min",
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Published on Startupon",
-        date: 'August 19, 2021',
+        time: "6 min",
+        heading: 'Global Markets',
+        heading2: 'Impact on DII Flows',
+        name: "Macro Research",
+        date: 'Jan 15, 2026',
         imgSrc: '/images/articles/article2.png',
     },
     {
-        time: "5 min",
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Published on Startupon",
-        date: 'August 19, 2021',
+        time: "12 min",
+        heading: 'Retirement Planning',
+        heading2: 'The 4% Rule Revisited',
+        name: "Wealth Desk",
+        date: 'Jan 10, 2026',
         imgSrc: '/images/articles/article3.png',
     },
 ]
@@ -110,8 +110,8 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center">
-                        <h3 className="text-blue text-lg font-normal tracking-widest">ARTICLES</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold">Our latest post.</h3>
+                        <h3 className="text-blue text-lg font-normal tracking-widest uppercase">INSIGHTS</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold">Latest Market Research.</h3>
                     </div>
 
 
